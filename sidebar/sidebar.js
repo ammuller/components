@@ -270,7 +270,7 @@ webix.type(webix.ui.tree, {
 	},
 	icon:function(obj, common){
 		if(obj.icon)
-			return "<span class='webix_icon webix_sidebar_icon fa-"+obj.icon+"'></span>";
+			return "<span class='webix_icon webix_sidebar_icon'><img style='height:20px' src="+obj.icon+"></span>";
 		return "";
 	}
 });
